@@ -6,7 +6,7 @@ export default createGlobalStyle`
         padding: 0;
         outline:0;
         box-sizing:border-box;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
     }
     html{
         font-size: 62.5%;
@@ -15,6 +15,7 @@ export default createGlobalStyle`
         width: 100%;
         height: 100%;
         font-size: 1.6rem;
+        color: "#fff";
     }
     #root{
         margin:0 auto;
