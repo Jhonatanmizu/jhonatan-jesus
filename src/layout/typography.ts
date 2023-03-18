@@ -26,7 +26,7 @@ export const Caption = styled.p`
   font-size: ${({ theme }) => theme.typography.xs};
   font-weight: 700;
   width: 40%;
-
+  line-height: 2.4rem;
   color: ${({ theme }) => theme.palette.background.contrastText};
   @media screen and (max-width: 800px) {
     width: 100%;

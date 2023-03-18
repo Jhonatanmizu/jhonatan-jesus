@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  min-height: 100vh;
-  background-color: ${({ theme }) => theme.palette.background.main};
+  min-height: 100%;
+  padding: ${({ theme }) => theme.padding.lg};
+`;
+export const MainContainer = styled.main`
+  width: 100%;
+  height: 100%;
+  margin-bottom: ${({ theme }) => theme.spacers.xl};
   padding: ${({ theme }) => theme.padding.lg};
 `;

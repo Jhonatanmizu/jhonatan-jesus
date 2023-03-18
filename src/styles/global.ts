@@ -15,7 +15,8 @@ export default createGlobalStyle`
         width: 100%;
         height: 100%;
         font-size: 1.6rem;
-        color: "#fff";
+        color:  ${({ theme }) => theme.palette.background.contrastText};
+        background-color: ${({ theme }) => theme.palette.background.main};
     }
     #root{
         margin:0 auto;
