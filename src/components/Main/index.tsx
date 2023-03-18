@@ -1,10 +1,10 @@
 import React from 'react';
-import { Section } from '../../layout/containers';
+import { MainContainer } from '../../layout/containers';
 import { Caption, Heading, Paragraph } from '../../layout/typography';
 import * as S from './styles';
 const Main: React.FC = () => {
   return (
-    <Section>
+    <MainContainer>
       <Heading>Jhonatan Jesus</Heading>
       <S.RowWrapper>
         <S.ContentWrapper>
@@ -26,7 +26,7 @@ const Main: React.FC = () => {
           projects and large scale projects.
         </Caption>
       </S.CaptionRow>
-    </Section>
+    </MainContainer>
   );
 };
 

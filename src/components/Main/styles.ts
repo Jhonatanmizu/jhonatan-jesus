@@ -4,10 +4,13 @@ export const Title = styled.h2`
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 700;
+  width: 68%;
   font-size: ${({ theme }) => theme.typography.lg};
+  line-height: 4.95rem;
   color: ${({ theme }) => theme.palette.background.contrastText};
   @media screen and (max-width: 800px) {
     font-size: ${({ theme }) => theme.typography.md};
+    width: 100%;
   }
 `;
 
@@ -38,9 +41,9 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  min-height: 30rem;
   margin-bottom: ${({ theme }) => theme.spacers.lg};
-  width: 45%;
+  width: 30%;
+  gap: ${({ theme }) => theme.spacers.lg};
   @media screen and (max-width: 800px) {
     width: 100%;
   }
