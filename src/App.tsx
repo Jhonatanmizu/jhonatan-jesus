@@ -6,6 +6,7 @@ import GlobalStyle from './styles/global';
 import { ThemeProvider } from 'styled-components';
 import { defaultTheme } from './styles/theme';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <GlobalStyle />
         <Main />
         <Skills />
+        <Projects />
         <Footer />
       </ThemeProvider>
     </>

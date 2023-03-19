@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const Title = styled.h2`
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -49,9 +48,9 @@ export const ContentWrapper = styled.div`
   }
 `;
 
-export const PhotoCard = styled.div`
+export const PhotoCard = styled.img`
   width: 35.7rem;
-  height: 37.4rem;
+  height: 48.4rem;
   background-color: ${({ theme }) => theme.palette.primary.main};
   filter: drop-shadow(18px 14px 4px rgba(0, 0, 0, 0.25));
   border-radius: ${({ theme }) => theme.borderRadius.sm};

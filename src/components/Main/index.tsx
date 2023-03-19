@@ -2,6 +2,9 @@ import React from 'react';
 import { MainContainer } from '../../layout/containers';
 import { Caption, Heading, Paragraph } from '../../layout/typography';
 import * as S from './styles';
+// Assets
+import img from '../../assets/photo.png';
+
 const Main: React.FC = () => {
   return (
     <MainContainer>
@@ -14,7 +17,7 @@ const Main: React.FC = () => {
             quality software with focus on user experience and user interface.
           </Paragraph>
         </S.ContentWrapper>
-        <S.PhotoCard />
+        <S.PhotoCard src={img} alt="Jhonatan Jesus" />
       </S.RowWrapper>
       <S.CaptionRow>
         <Caption>
