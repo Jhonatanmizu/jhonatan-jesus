@@ -8,7 +8,10 @@ const Footer: React.FC = () => {
       <S.HeartWrapper>
         <MdFavorite size={30} />
       </S.HeartWrapper>
-      By <S.FooterLink>Jhonatan Jesus</S.FooterLink>
+      By{' '}
+      <S.FooterLink href="https://github.com/Jhonatanmizu" target={'_blank'}>
+        Jhonatan Jesus
+      </S.FooterLink>
     </S.FooterWrapper>
   );
 };
